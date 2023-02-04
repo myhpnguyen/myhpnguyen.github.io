@@ -1,0 +1,112 @@
+html, body, .container {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-color: rgba(220 154 154);
+    font-family: fantasy;
+}
+
+.container {
+    display: flex;
+}
+
+img {
+    max-width: 100%;
+    max-width: 100%;
+}
+
+.img-container {
+    overflow: hidden;
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    border-radius: 150px;
+}
+
+.left-content, .right-content {
+    width: 50%;
+    padding: 0 50px 50px 50px;
+}
+
+.navigation {
+    font-size: large;
+    text-align: center;
+    padding: 20px;
+}
+
+.navigation a {
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+.my, .test, .head {
+    font-size: 50px;
+    color: slategrey;
+}
+
+.my, .head {
+    text-align: center;
+}
+
+.likes, .fav {
+    color: mintcream;
+}
+
+.feed-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 50%;
+    margin: auto;
+    gap: 15px;
+}
+
+.image {
+    width: 250px;
+    height: 250px;
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
+}
+
+#pink, #sapphire, #cooking, #music, #thai-food, #viet-food, #wednesday, #panda, #coop {
+    background-size: cover;
+}
+
+#pink {
+    background-image: url("/assets/pink.jpg");
+}
+
+#sapphire {
+    background-image: url("/assets/sapphire.jpeg");
+}
+
+#cooking {
+    background-image: url("/assets/cooking.png");
+}
+
+#music {
+    background-image: url("/assets/music.jpg");
+}
+
+#thai-food {
+    background-image: url("/assets/thai\ food.jpg");
+}
+
+#viet-food {
+    background-image: url("/assets/viet\ food.jpg");
+}
+
+#wednesday {
+    background-image: url("/assets/wednesday.jpeg");
+}
+
+#panda {
+    background-image: url("/assets/working\ out.jpg");
+}
+
+#coop {
+    background-image: url("/assets/coop.jpg");
+}
